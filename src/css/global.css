@@ -1,10 +1,9 @@
 :root{
-    --fontColor1:#fff
-    --fontColor2:#000
-    --bgColor1:#030436
-    --bgColor2:#2d30f0
-    --bgColor3:#f1e9e9
-
+    --fontColor1:#f5f5f5;
+    --fontColor2:#000;
+    --bgColor1:#030436;
+    --bgColor2:#9f5f91;
+    --bgColor3:#572c57;
 }
 
 *{
@@ -12,18 +11,17 @@
     padding:0;
     box-sizing:border-box;
 }
-
 .container{
     height:100vh;
     display:flex;
-    flex-direction:collumn;
-    aling-item:center;
+    flex-direction:column;
+    align-items:center;
     justify-content:center;
 }
-//respomsovodade
-@media(max-width:500px){
+/*responsividade*/
+@media (max-width:500px){
     .container{
         justify-content:start;
-        padding:15x;
+        padding: 15px;
     }
 }

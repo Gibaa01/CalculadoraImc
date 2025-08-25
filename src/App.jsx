@@ -2,7 +2,7 @@ import Header from './components/Header'
 import {useState,useEffect} from 'react'
 import Resultado from './components/Resultado'
 import "./css/style.css"
-
+import "./css/global.css"
 
 function App() {
 
