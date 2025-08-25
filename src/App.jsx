@@ -21,8 +21,8 @@ const calcularImc=()=>{
   //HOOK useEffect - efeito colateral no mostrar resultado
   useEffect(()=>{
     resultado >0 ? setMostrarResultado(true): setMostrarResultado(false)
-  },
-)
+    },[resultado]
+  )
 
 
   return (
